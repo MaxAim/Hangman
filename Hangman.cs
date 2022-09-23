@@ -31,7 +31,7 @@ class Program {
       }
       Console.WriteLine(roll == progress ? "You win!" : "You lose, the world was \"{0}\"", roll);
       Console.Write("Press any key to exit...");
-      Console.ReadLine();
+      Console.ReadKey();
     }
     catch (System.Exception)
     {
